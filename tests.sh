@@ -8,7 +8,7 @@ header="Test Time,Device IP,iPerf Server,iPerf port,Download Speed,Upload Speed,
 test_date=$(echo `date +%m-%d-%Y`)
 test_time=$(echo `date +%m-%d-%Y_%H:%M`)
 filename="/home/$USER/natest/data/"$location"_"$test_date".csv"
-error_filename="/home/$USER/natest/data/"$location"_"$test_date"_error.csv"
+error_filename="/home/$USER/natest/data/"$location"_"$test_date"_error.txt"
 
 #Testing Starts
 public_ip=$(dig +short myip.opendns.com @resolver1.opendns.com)

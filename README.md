@@ -1,6 +1,6 @@
 # natest
-1. Activate [Windows Subsystem for Linux] (https://docs.microsoft.com/en-us/windows/wsl/install-win10) on Windows 10 Machine and reboot.
-2. Install [Ubuntu] (https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab) app.
+1. Activate [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) on Windows 10 Machine and reboot.
+2. Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab) app.
 3. Start Ubuntu and create a user.
 4. Update & Upgrade system (sudo apt-get update & sudo apt-get upgrade)
 5. Install iperf3 (sudo apt-get install iperf3)
